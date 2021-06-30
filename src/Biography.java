@@ -17,35 +17,14 @@ public class Biography {
         24 Hours in the Life of a Woman     novella         80
          */
 
-        //Create an author object that will store Stefan Zweig's information
-
-
-        //Set author's information about age or being alive here - if alive, set age as well
-
-
-        //Create 3 Book objects that will store Stefan Zweig' books given above
-
-
-
-        //Set author's books information here
-
 
         /*
-        It is time to create our Biography for Stefan Zweig
-        We will give all information about Stefan Zweig as listed below
-        1. print author's full name
-        2. print where is he from
-        3. print if author is alive - if alive, print age as well
-        4. print all their books name, genre and totalNumber of pages of the books
-
         Expected result:
-        Author's full name is: Stefan Zweig
-        Author is from: Austria
-        Is author alive: false
+        Author's information = [firstName: Stefan, lastName: Zweig, country: Austria, isAlive: false]
         Author's books are as listed below:
-        Amok : tale : 189
-        The Royal Game  : novella : 53
-        24 Hours in the Life of a Woman : novella : 80
+        [name: Amok, genre: tale, page: 189, author: Stefan Zweig]
+        [name: The Royal Game, tale: novella, page: 53, author: Stefan Zweig]
+        [name: 24 Hours in the Life of a Woman, tale: novella, page: 80, author: Stefan Zweig]
          */
 
     }
