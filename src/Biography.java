@@ -26,9 +26,9 @@ public class Biography {
         Expected result:
         Author's information = [firstName: Stefan, lastName: Zweig, country: Austria, isAlive: false]
         Author's books are as listed below:
-        [name: Amok, genre: tale, page: 189, author: Stefan Zweig]
-        [name: The Royal Game, tale: novella, page: 53, author: Stefan Zweig]
-        [name: 24 Hours in the Life of a Woman, tale: novella, page: 80, author: Stefan Zweig]
+        [name: Amok, genre: tale, page: 189]
+        [name: The Royal Game, tale: novella, page: 53]
+        [name: 24 Hours in the Life of a Woman, tale: novella, page: 80]
          */
 
         //YOUR CODE HERE
