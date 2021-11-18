@@ -16,11 +16,8 @@ public class Book {
 
 
     /*
-        Create a method that returns all book info as a String - call it bookInfo
-        Format of String is -> [name: bookName, genre: bookGenre, page: pages]
+        Override toString() method that returns Book object information
      */
     //YOUR CODE HERE
-
-
 
 }

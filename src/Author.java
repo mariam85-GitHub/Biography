@@ -10,31 +10,30 @@ public class Author {
     //YOUR CODE HERE
 
 
-
     /*
         Define instance variables here
         NOTE: Books must be defined as a List of Objects of Book class not String
     */
     //YOUR CODE HERE
-
-
+    String firstName;
+    int lastName;
 
     /*
-        Create a method that returns all author info as a String except books
-        Make sure that you are not including age information if author is not alive
-        Format of String is ->
-        [firstName: authorsFirstName, lastName: authorsFirstName, country: authorsCountry, isAlive: isAuthorAlive, age: authorsAge]
+    Override toString() method here that returns Author object information
      */
     //YOUR CODE HERE
 
 
+    @Override
+    public String toString() {
+        return "Author{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName=" + lastName +
+                '}';
+    }
 
-    /*
-        Create a method that returns author's book information as a String - call it authorBookInfo
-        This method will use Book class - bookInfo() method in it
-     */
-    //YOUR CODE HERE
-
-
-
+    public static void main(String[] args) {
+        Author a = new Author();
+        System.out.println(a);
+    }
 }

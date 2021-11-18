@@ -24,11 +24,11 @@ public class Biography {
 
         /*
         Expected result:
-        Author's information = [firstName: Stefan, lastName: Zweig, country: Austria, isAlive: false]
+        Author's information = Author{firstName='Stefan', lastName='Zweig', country='Austria', isAlive=false}
         Author's books are as listed below:
-        [name: Amok, genre: tale, page: 189]
-        [name: The Royal Game, tale: novella, page: 53]
-        [name: 24 Hours in the Life of a Woman, tale: novella, page: 80]
+        Book{name='Amok', genre:'tale', page=189}
+        Book{name='The Royal Game', tale='novella', page=53}
+        Book{name='24 Hours in the Life of a Woman', tale='novella', page=80}
          */
 
         //YOUR CODE HERE
